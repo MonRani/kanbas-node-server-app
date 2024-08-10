@@ -43,7 +43,6 @@ if (process.env.NODE_ENV !== "development") {
 }
 
 app.use(session(sessionOptions));
-
 app.use(express.json());
 
 UserRoutes(app);
