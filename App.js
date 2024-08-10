@@ -23,7 +23,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: [process.env.NETLIFY_URL || "http://localhost:3000", "http://localhost:3001"], // Array of allowed origins
+    origin: [process.env.NETLIFY_URL || "http://localhost:3000", "http://localhost:3001", "https://a6--kanbas-web-app-assignment.netlify.app"], // Array of allowed origins
   })
 ); // Make sure CORS is used right after creating the app
 
